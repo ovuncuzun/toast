@@ -36,8 +36,6 @@ export class SolutionComponent {
     })
 
     this.serverTotal["Grand Total"] = this.SumSubTotals();
-    //this.serverTotal = this.SortObject(this.serverTotal)
-    console.log(this.serverTotal)
   }
 
 
