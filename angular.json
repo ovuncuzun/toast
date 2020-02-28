@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "toast": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "toast"
+    }
+  },
+  "defaultProject": "toast",
+  "cli": {
+    "analytics": "9106441c-4fcd-4818-b905-48f8edfa7376"
+  }
 }

@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>Server</th>
+        <th>Total</th>
+    </tr>
+    <tr *ngFor="let order of orders">
+        <td>{{order.server}}</td>
+        <td>{{order.subtotal + order.tax}}</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Server</th>
+        <th>Total</th>
+    </tr>
+    <tr *ngFor="let order of serverTotal | keyvalue: valueAscOrder">
+        <td>{{order.key}}</td>
+        <td>{{order.value}}</td>
+    </tr>
+</table>
